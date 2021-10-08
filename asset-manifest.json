@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/fcc-frontend/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/fcc-frontend/static/js/main.a1307af7.chunk.js",
-    "main.js.map": "/fcc-frontend/static/js/main.a1307af7.chunk.js.map",
+    "main.js": "/fcc-frontend/static/js/main.2e0388e7.chunk.js",
+    "main.js.map": "/fcc-frontend/static/js/main.2e0388e7.chunk.js.map",
     "runtime-main.js": "/fcc-frontend/static/js/runtime-main.e2013383.js",
     "runtime-main.js.map": "/fcc-frontend/static/js/runtime-main.e2013383.js.map",
-    "static/js/2.3657019e.chunk.js": "/fcc-frontend/static/js/2.3657019e.chunk.js",
-    "static/js/2.3657019e.chunk.js.map": "/fcc-frontend/static/js/2.3657019e.chunk.js.map",
+    "static/js/2.fdca5fbd.chunk.js": "/fcc-frontend/static/js/2.fdca5fbd.chunk.js",
+    "static/js/2.fdca5fbd.chunk.js.map": "/fcc-frontend/static/js/2.fdca5fbd.chunk.js.map",
     "static/js/3.885c53f6.chunk.js": "/fcc-frontend/static/js/3.885c53f6.chunk.js",
     "static/js/3.885c53f6.chunk.js.map": "/fcc-frontend/static/js/3.885c53f6.chunk.js.map",
     "index.html": "/fcc-frontend/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/fcc-frontend/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.3657019e.chunk.js.LICENSE.txt": "/fcc-frontend/static/js/2.3657019e.chunk.js.LICENSE.txt",
+    "static/js/2.fdca5fbd.chunk.js.LICENSE.txt": "/fcc-frontend/static/js/2.fdca5fbd.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/fcc-frontend/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e2013383.js",
-    "static/js/2.3657019e.chunk.js",
+    "static/js/2.fdca5fbd.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.a1307af7.chunk.js"
+    "static/js/main.2e0388e7.chunk.js"
   ]
 }
