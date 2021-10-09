@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monofett&display=swap");
+
+#quote-box {
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px black;
+  width: 700px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  #text-box {
+    color: #5e6464;
+    font-size: 2em;
+    font-family: "Major Mono Display", Arial, sans-serif;
+    padding: 40px;
+    margin: 20px;
+    #author {
+      font-size: 1.2em;
+      font-family: Monofett, monospace;
+      padding: 20px 0 0 0;
+      text-align: right;
+      // width: 50%;
+    }
+  }
+  #button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0 50px 0;
+
+    #new-quote {
+      border: 2px black solid;
+      border-radius: 5px;
+      background-color: #fbe7c6;
+      width: auto;
+      max-width: 300px;
+      height: auto;
+      box-shadow: 5px 5px 0px black;
+      padding: 5px 10px 5px 10px;
+      cursor: pointer;
+      font-size: 1.2em;
+    }
+    #tweet-quote {
+      font-size: 40px;
+      color: #5e6464;
+    }
+  }
+}
