@@ -12,8 +12,8 @@ class Home extends React.Component {
     return (
       <div className="home-info">
         <p>
-          This are a series of projects built using React.js and Sass, as part
-          of the Front End Development Libraries curriculum from{" "}
+          This is a series of projects built using React.js and Sass, as part of
+          the Front End Development Libraries curriculum from{" "}
           <a
             href="https://www.freecodecamp.org/learn/front-end-development-libraries/"
             target="top"
