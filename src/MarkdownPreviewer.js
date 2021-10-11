@@ -111,7 +111,7 @@ class MarkdownPreviewer extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1 className="markdown-title">Markdown Previewer</h1>
+        <h1 className="title">Markdown Previewer</h1>
         <div className="wrapper">
           <Editor input={this.state.input} onChange={this.handleInput} />
           <Preview input={this.state.input} />

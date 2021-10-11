@@ -50,3 +50,24 @@
     }
   }
 }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .title {
+    width: 325px;
+  }
+  #quote-box {
+    width: 300px;
+    min-height: auto;
+    font-size: 0.75em;
+    #text-box {
+      margin: 0;
+      // padding: 0;
+    }
+    #button-box {
+      padding: 0 0 10px 0;
+    }
+  }
+}

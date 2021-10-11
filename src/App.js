@@ -6,6 +6,7 @@ import DrumMachine from "./DrumMachine";
 import MarkdownPreviewer from "./MarkdownPreviewer";
 import QuoteGenerator from "./QuoteGenerator";
 import Home from "./Home";
+import $ from "jquery";
 
 class App extends React.Component {
   render() {
@@ -16,17 +17,19 @@ class App extends React.Component {
             <ul id="navigation">
               <li>
                 <Link to="/" style={{ textDecoration: "none" }}>
-                  FCC: Front End Developer Projects
+                  {$(window).width() <= 375
+                    ? "FCC"
+                    : "FCC: Front End Developer Projects"}
                 </Link>
               </li>
               <li>
                 <Link to="/calculator" style={{ textDecoration: "none" }}>
-                  Calculator
+                  {$(window).width() <= 375 ? "Calc" : "Calculator"}
                 </Link>
               </li>
               <li>
                 <Link to="/drummachine" style={{ textDecoration: "none" }}>
-                  Drum Machine
+                  {$(window).width() <= 375 ? "Drum" : "Drum Machine"}
                 </Link>
               </li>
               <li>
@@ -34,12 +37,12 @@ class App extends React.Component {
                   to="/markdownpreviewer"
                   style={{ textDecoration: "none" }}
                 >
-                  Markdown Previewer
+                  {$(window).width() <= 375 ? "md Prev" : "Markdown Previewer"}
                 </Link>
               </li>
               <li>
                 <Link to="/quotegenerator" style={{ textDecoration: "none" }}>
-                  Quote Generator
+                  {$(window).width() <= 375 ? "Quotes" : "Quote Generator"}
                 </Link>
               </li>
             </ul>
