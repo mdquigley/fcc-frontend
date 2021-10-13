@@ -1,0 +1,123 @@
+#clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+  border: 2px black solid;
+  border-radius: 5px;
+  background-color: #ffaebc;
+  min-width: 430px;
+  padding-top: 20px;
+  box-shadow: 5px 5px 0px black;
+}
+
+#timer {
+  text-align: center;
+}
+
+#timerdisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px black solid;
+  border-radius: 5px;
+  background-color: #a0e7e5;
+  box-shadow: 2px 2px 0px grey;
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  font-size: 2em;
+  line-height: 1em;
+  min-width: auto;
+  width: 150px;
+  max-height: auto;
+}
+#timercontrols {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#controls {
+  width: auto;
+  display: flex;
+  text-align: center;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.length {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px black solid;
+  border-radius: 5px;
+  background-color: #a0e7e5;
+  box-shadow: 2px 2px 0px grey;
+  margin: 10px;
+  padding: 5px 10px 5px 10px;
+  font-size: 2em;
+  line-height: 1em;
+}
+.timerbutton {
+  border: 2px black solid;
+  border-radius: 15px;
+  background-color: #fbe7c6;
+  box-shadow: 2px 2px 0px grey;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#footer {
+  font-size: 0.5em;
+  margin: 5px;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  #clock {
+    min-width: 80vw;
+    width: 80vw;
+    padding-top: 5px;
+  }
+  #controls {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #lengths {
+    h3 {
+      margin: 0;
+    }
+  }
+  #timerdisplay {
+    width: 200px;
+    height: auto;
+
+    h3 {
+      margin: 0;
+    }
+  }
+  .timerbutton {
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -5,6 +5,7 @@ import Calculator from "./Calculator";
 import DrumMachine from "./DrumMachine";
 import MarkdownPreviewer from "./MarkdownPreviewer";
 import QuoteGenerator from "./QuoteGenerator";
+import PomodoroTimer from "./PomodoroTimer";
 import Home from "./Home";
 import $ from "jquery";
 
@@ -45,6 +46,11 @@ class App extends React.Component {
                   {$(window).width() <= 375 ? "Quotes" : "Quote Generator"}
                 </Link>
               </li>
+              <li>
+                <Link to="/pomodorotimer" style={{ textDecoration: "none" }}>
+                  {$(window).width() <= 375 ? "Timer" : "Pomodoro Timer"}
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>
@@ -63,6 +69,9 @@ class App extends React.Component {
           </Route>
           <Route exact path="/quotegenerator">
             <QuoteGenerator />
+          </Route>
+          <Route exact path="/pomodorotimer">
+            <PomodoroTimer />
           </Route>
         </Switch>
       </div>
