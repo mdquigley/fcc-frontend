@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fcc-frontend/static/css/main.f9932577.chunk.css",
+    "main.css": "/fcc-frontend/static/css/main.705d5e45.chunk.css",
     "main.js": "/fcc-frontend/static/js/main.7cddbe03.chunk.js",
     "main.js.map": "/fcc-frontend/static/js/main.7cddbe03.chunk.js.map",
     "runtime-main.js": "/fcc-frontend/static/js/runtime-main.4a415788.js",
@@ -10,13 +10,13 @@
     "static/js/3.0cdb9fd2.chunk.js": "/fcc-frontend/static/js/3.0cdb9fd2.chunk.js",
     "static/js/3.0cdb9fd2.chunk.js.map": "/fcc-frontend/static/js/3.0cdb9fd2.chunk.js.map",
     "index.html": "/fcc-frontend/index.html",
-    "static/css/main.f9932577.chunk.css.map": "/fcc-frontend/static/css/main.f9932577.chunk.css.map",
+    "static/css/main.705d5e45.chunk.css.map": "/fcc-frontend/static/css/main.705d5e45.chunk.css.map",
     "static/js/2.9cf39eda.chunk.js.LICENSE.txt": "/fcc-frontend/static/js/2.9cf39eda.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4a415788.js",
     "static/js/2.9cf39eda.chunk.js",
-    "static/css/main.f9932577.chunk.css",
+    "static/css/main.705d5e45.chunk.css",
     "static/js/main.7cddbe03.chunk.js"
   ]
 }
